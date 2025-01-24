@@ -527,8 +527,8 @@ video {
 }
 
 .py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem
+    padding-top: 3rem;
+    padding-bottom: 3rem
 }
 
 /* .pt-20 {
@@ -758,4 +758,16 @@ a:hover {
 
 .fade-in-out[data-astro-cid-sckkx6r4] {
     animation: fadeInOut 4s ease-in-out infinite
+}
+
+@font-face {
+    font-family: 'ABC Ginto Nord';
+    src: url('fonts/ABC-Ginto-Nord-800.woff2') format('woff2'),
+         url('fonts/ABC-Ginto-Nord-800.woff') format('woff');
+    font-weight: 800; /* Bold weight */
+    font-style: normal; /* Стандартний стиль */
+}
+
+body {
+    font-family: 'ABC Ginto Nord', sans-serif;
 }
